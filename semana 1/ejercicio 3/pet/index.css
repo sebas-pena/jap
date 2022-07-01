@@ -1,0 +1,42 @@
+@import url(../style/header.css);
+@import url(../style/normalize.css);
+
+
+header a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  gap: 15px;
+}
+
+.pet-card{
+  max-width: 400px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px -1px rgb(0 0 0 / 21%);
+
+}
+
+.pet-card__image{
+  display: block;
+  width: 100%;
+}
+
+.pet-card__body{
+  padding: 0 10px 10px 10px;
+}
+
+.pet-card__name{
+  font-size: 20px;
+  margin: 10px 0;
+  line-height: 1;
+}
+
+.pet-card__description{
+  font-size: 16px;
+  color: #717171;
+
+}

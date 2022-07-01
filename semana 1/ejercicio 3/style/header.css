@@ -1,0 +1,15 @@
+header{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  background-color: #B0D7FF;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header .logo{
+  width: 40px;
+  height: 40px;
+}
