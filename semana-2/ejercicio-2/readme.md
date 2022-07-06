@@ -1,5 +1,7 @@
 # Propuesta del ejercicio
 
+## Práctica: Mi CV en HTML
+
 Deberás elaborar tu curriculum vitae en formato web, como el que se muestra a continuación.
 
 Notarás que hay elementos HTML que no hemos visto:

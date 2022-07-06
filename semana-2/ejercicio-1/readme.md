@@ -1,5 +1,7 @@
 # Propuesta del ejercicio
 
+## Práctica: Mi primer documento HTML
+
 Realizar el siguiente documento HTML:
 
 Al cargar la página, deberá mostrarse el siguiente mensaje:

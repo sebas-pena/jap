@@ -1,5 +1,7 @@
 # Propuesta del ejercicio
 
+## Práctica: Ejercicio 2
+
 Modificar la página del ejercicio anterior para lograr lo siguiente.
 
 Al cargar la página, deberá mostrarse el siguiente mensaje:
