@@ -6,5 +6,51 @@
 		<link rel="stylesheet" href="style.css" />
 		<title>Formulario</title>
 	</head>
-	<body></body>
+	<body>
+		<form>
+			<h1>Registrarse</h1>
+			<input
+				type="text"
+				name="nombre"
+				placeholder="Nombre"
+				autocomplete="off"
+				spellcheck="false"
+			/>
+			<input
+				type="text"
+				name="apellido"
+				placeholder="Apellido"
+				autocomplete="off"
+				spellcheck="false"
+			/>
+			<input
+				type="text"
+				name="email"
+				placeholder="Email"
+				autocomplete="off"
+				spellcheck="false"
+			/>
+			<div>
+				<label>
+					Masculino:
+					<input type="radio" name="genero" value="m" />
+				</label>
+				<label>
+					Femenino:
+					<input type="radio" name="genero" value="f" />
+				</label>
+			</div>
+
+			<label>
+				<input type="checkbox" name="terminos" />
+				Deseo recibir noticias y ofertas.
+			</label>
+
+			<label>
+				<input type="checkbox" name="terminos" />
+				Acepto los terminos y condiciones.
+			</label>
+			<input type="submit" value="Enviar" />
+		</form>
+	</body>
 </html>
