@@ -5,8 +5,8 @@ selectBoxItems.forEach((item) => {
 	item.addEventListener("click", (e) => {
 		selectBoxPlaceholder.classList.contains("undefined") &&
 			selectBoxPlaceholder.classList.remove("undefined")
-
 		selectBoxPlaceholder.innerText = e.target.innerText
+		selectBoxPlaceholder.nextElementSibling.classList.add("hidden")
 	})
 })
 
